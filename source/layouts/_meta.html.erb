@@ -1,0 +1,28 @@
+<% meta_description = 
+"Le Wagon by Night is a 10 week introduction to Front-End programming. 
+Change your life, learn to code."
+ %>
+<% meta_title = "Le Wagon by Night" %>
+<% twitter_account = "@LeWagonBrussels" %>
+
+<meta name="description" content="<%= meta_description %>">
+
+<!-- Facebook Open Graph data -->
+<meta property="og:title" content="<%= meta_title %>" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="<%= image_path 'meta.png' %>" />
+<meta property="og:description" content="<%= meta_description %>" />
+<meta property="og:site_name" content="<%= meta_title %>" />
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="<%= twitter_account %>">
+<meta name="twitter:title" content="<%= meta_title %>">
+<meta name="twitter:description" content="<%= meta_description %>">
+<meta name="twitter:creator" content="<%= twitter_account %>">
+<meta name="twitter:image:src" content="<%= image_path 'meta.png' %>">
+
+<!-- Google+ Schema.org markup -->
+<meta itemprop="name" content="<%= meta_title %>">
+<meta itemprop="description" content="<%= meta_description %>">
+<meta itemprop="image" content="<%= image_path 'meta.png' %>">

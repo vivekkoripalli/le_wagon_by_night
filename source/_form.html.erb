@@ -5,48 +5,48 @@
 <!-- Formspree -->
 
 
-<% form_tag 'https://formspree.io/larsbohm@gmail.com', class:"submission" do %>
+<% form_tag 'https://formspree.io/anne@lewagon.org', class:"submission" do %>
 <h2>
   Apply for Le Wagon by Night now!
 </h2>
 <div class="form-item">
   <%= label_tag :first_name %>
-  <%= text_field_tag :first_name %>
+  <%= text_field_tag :first_name, placeholder:"Alan" %>
 </div>
 
 <div class="form-item">
   <%= label_tag :last_name %>
-  <%= text_field_tag :last_name %>
+  <%= text_field_tag :last_name, placeholder:"Turing" %>
 </div>
 
 <div class="form-item">
   <%= label_tag :age %>
-  <%= number_field_tag :age %>
+  <%= number_field_tag :age, placeholder:"42" %>
 </div>
 
 <div class="form-item">
   <%= label_tag :email %>
-  <%= text_field_tag :email %>
+  <%= text_field_tag :email, placeholder:"alan@turing.com" %>
 </div>
 
 <div class="form-item">
   <%= label_tag :phone_number %>
-  <%= phone_field_tag :phone_number %>
+  <%= phone_field_tag :phone_number, placeholder:"+33612345678" %>
 </div>
 
 <div class="form-item">
   <%= label_tag :referer %>
-  <%= text_field_tag :referer %>
+  <%= text_area_tag :referer, placeholder: "Who recommended Le Wagon to you? Quora, Facebook, a friend (who?), etc." %>
 </div>
 
 <div class="form-item">
   <%= label_tag :motivation %>
-  <%= text_area_tag :motivation %>
+  <%= text_area_tag :motivation, placeholder: "Why Le Wagon? What is your professional project?" %>
 </div>
 
 <div class="form-item">
   <div class="submit">
-    <%= submit_tag :submit, class:"btn-submit" %>
+    <%= submit_tag :submit, value:"join now!", class:"btn-submit" %>
   </div>
 </div>
 

@@ -1,16 +1,33 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: Le Wagon by Night
 ---
-
 
 <%= partial 'header' %>
 
-<%= partial 'description' %>
+<div class="background-white" id="description">
+  <%= partial 'description' %>
+</div>
 
-<%= partial 'practical' %>
+<div class="filler"></div>
 
-<%= partial 'schedule' %>
+<div class="background-white">
+  <%= partial 'practical' %>
+</div>
 
-<%= partial 'form' %>
+<div class="filler"></div>
 
-<%= partial 'footer' %>
+<div class="background-white">
+  <%= partial 'schedule' %>
+</div>
+
+<div class="filler"></div>
+
+<div class="background-white" id="apply">
+  <%= partial 'form' %>
+</div>
+
+<div class="filler"></div>
+
+<div class="background-white">
+  <%= partial 'footer' %>
+</div>
