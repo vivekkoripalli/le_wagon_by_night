@@ -1,0 +1,53 @@
+<!-- Wufoo -->
+
+<!-- <iframe height="697" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://datene.wufoo.com/embed/zpul07i1iqdfbr/"><a href="https://datene.wufoo.com/forms/zpul07i1iqdfbr/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"><span class="notranslate">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</span></div> -->
+
+<!-- Formspree -->
+
+
+<% form_tag 'https://formspree.io/larsbohm@gmail.com', class:"submission" do %>
+<h2>
+  Apply for Le Wagon by Night now!
+</h2>
+<div class="form-item">
+  <%= label_tag :first_name %>
+  <%= text_field_tag :first_name %>
+</div>
+
+<div class="form-item">
+  <%= label_tag :last_name %>
+  <%= text_field_tag :last_name %>
+</div>
+
+<div class="form-item">
+  <%= label_tag :age %>
+  <%= number_field_tag :age %>
+</div>
+
+<div class="form-item">
+  <%= label_tag :email %>
+  <%= text_field_tag :email %>
+</div>
+
+<div class="form-item">
+  <%= label_tag :phone_number %>
+  <%= phone_field_tag :phone_number %>
+</div>
+
+<div class="form-item">
+  <%= label_tag :referer %>
+  <%= text_field_tag :referer %>
+</div>
+
+<div class="form-item">
+  <%= label_tag :motivation %>
+  <%= text_area_tag :motivation %>
+</div>
+
+<div class="form-item">
+  <div class="submit">
+    <%= submit_tag :submit, class:"btn-submit" %>
+  </div>
+</div>
+
+<% end %>
