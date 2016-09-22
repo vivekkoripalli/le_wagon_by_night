@@ -35,6 +35,11 @@
   }
   .discover {
     margin: 25px 0;
+    a {
+      width: 100px;
+      display: block;
+      margin: 0 auto;
+    }
   }
 }
 
@@ -219,6 +224,9 @@
   }
   .copyright {
     font-size: 11pt;
+    .fa {
+      color: $red;
+    }
   }
   .contact {
     a {
