@@ -10,37 +10,58 @@
   Apply for Le Wagon by Night now!
 </h2>
 <div class="form-item">
-  <%= label_tag :first_name %>
+  <div class="label-group">
+    <i class="fa fa-user"></i>
+    <%= label_tag :first_name %>
+  </div>
   <%= text_field_tag :first_name, placeholder:"Alan" %>
 </div>
 
 <div class="form-item">
-  <%= label_tag :last_name %>
+<div class="label-group">
+<i class="fa fa-font"></i>
+    <%= label_tag :last_name %>
+  </div>
   <%= text_field_tag :last_name, placeholder:"Turing" %>
 </div>
 
 <div class="form-item">
-  <%= label_tag :age %>
+  <div class="label-group">
+  <i class="fa fa-calendar"></i>
+    <%= label_tag :age %>
+  </div>
   <%= number_field_tag :age, placeholder:"42" %>
 </div>
 
 <div class="form-item">
-  <%= label_tag :email %>
+  <div class="label-group">
+  <i class="fa fa-envelope"></i>
+    <%= label_tag :email %>
+  </div>
   <%= text_field_tag :email, placeholder:"alan@turing.com" %>
 </div>
 
 <div class="form-item">
-  <%= label_tag :phone_number %>
+  <div class="label-group">
+  <i class="fa fa-mobile"></i>
+    <%= label_tag :phone_number %>
+  </div>
   <%= phone_field_tag :phone_number, placeholder:"+33612345678" %>
 </div>
 
 <div class="form-item">
-  <%= label_tag :referer %>
+  <div class="label-group">
+  <i class="fa fa-comments"></i>
+    <%= label_tag :referer %>
+  </div>
   <%= text_area_tag :referer, placeholder: "Who recommended Le Wagon to you? Quora, Facebook, a friend (who?), etc." %>
 </div>
 
 <div class="form-item">
-  <%= label_tag :motivation %>
+  <div class="label-group">
+  <i class="fa fa-thumbs-o-up"></i>
+    <%= label_tag :motivation %>
+  </div>
   <%= text_area_tag :motivation, placeholder: "Why Le Wagon? What is your professional project?" %>
 </div>
 
