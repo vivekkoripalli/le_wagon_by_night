@@ -148,12 +148,9 @@
 .schedule-item {
   &:hover {
     box-shadow: 1px 1px 1px rgba(1,1,1,0.3);
-    // transform: scale(1.01);
-    // background-color: $red;
     background-color: #e34848;
   }
-  border-radius: 2pt;
-  // transform: scale(1);
+  border-radius: 5pt;
   box-shadow: 1px 1px 1px rgba(1,1,1,0.3);
   transition: all 200ms ease;
   padding: 15px;
