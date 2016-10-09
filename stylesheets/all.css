@@ -10292,8 +10292,7 @@ button.close {
 
 /* line 148, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
 .schedule-item {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  border-radius: 2pt;
   box-shadow: 1px 1px 1px rgba(1, 1, 1, 0.3);
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
@@ -10316,7 +10315,7 @@ button.close {
   .schedule-item:hover {
     box-shadow: 1px 1px 1px rgba(1, 1, 1, 0.3);
     background-color: #e34848; }
-  /* line 164, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 165, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .schedule-item .left {
     display: -webkit-box;
     display: -webkit-flex;
@@ -10331,14 +10330,14 @@ button.close {
     -webkit-flex: 0 0 38%;
         -ms-flex: 0 0 38%;
             flex: 0 0 38%; }
-    /* line 168, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+    /* line 169, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
     .schedule-item .left .week {
       color: #D23333; }
-    /* line 171, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+    /* line 172, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
     .schedule-item .left .date {
       font-size: 10pt;
       font-weight: 700; }
-  /* line 176, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 177, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .schedule-item .content {
     -webkit-box-flex: 1;
     -webkit-flex: 1 0 80%;
@@ -10346,47 +10345,47 @@ button.close {
             flex: 1 0 80%;
     text-align: left;
     font-size: 10pt; }
-    /* line 181, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+    /* line 182, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
     .schedule-item .content h4 {
       font-size: 12pt; }
-    /* line 184, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+    /* line 185, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
     .schedule-item .content li {
       font-weight: 100; }
 
-/* line 190, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+/* line 191, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
 .team {
   text-align: center;
   margin-bottom: 30px; }
-  /* line 193, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 194, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .team h2 {
     text-align: center;
     font-size: 30px;
     font-weight: 700;
     color: #444444;
     margin-bottom: 30px; }
-  /* line 200, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 201, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .team img {
     width: 140px;
     margin: auto; }
 
-/* line 206, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+/* line 207, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
 .submission {
   text-align: center;
   margin-bottom: 30px; }
-  /* line 209, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 210, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission h2 {
     text-align: center;
     font-size: 30px;
     font-weight: 700;
     color: #444444;
     margin-bottom: 30px; }
-  /* line 217, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 218, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission .form-col {
     min-width: 300px; }
-  /* line 221, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 222, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission .form-item {
     margin: 10px 0; }
-  /* line 225, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 226, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission input {
     padding: 5px 10px;
     margin-bottom: 20px;
@@ -10394,12 +10393,12 @@ button.close {
     border: none;
     box-shadow: -1px 1px 1px rgba(1, 1, 1, 0.1);
     width: 300px; }
-  /* line 233, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 234, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission input:focus {
     outline: none !important;
     border-color: #777777;
     box-shadow: 0px 0px 2px #777777; }
-  /* line 238, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 239, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission textarea {
     box-shadow: -1px 1px 1px rgba(1, 1, 1, 0.1);
     height: 75px;
@@ -10411,50 +10410,50 @@ button.close {
     font-weight: 100;
     width: 300px;
     color: #333333; }
-  /* line 250, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 251, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission textarea:focus {
     outline: none !important;
     border-color: #777777;
     box-shadow: 0px 0px 2px #777777; }
-  /* line 255, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 256, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission ::-webkit-input-placeholder {
     font-size: 14px;
     font-weight: 100; }
-  /* line 260, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 261, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission :-moz-placeholder {
     /* Firefox 18- */
     font-size: 14px;
     font-weight: 100; }
-  /* line 265, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 266, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission ::-moz-placeholder {
     /* Firefox 19+ */
     font-size: 14px;
     font-weight: 100; }
-  /* line 270, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 271, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission :-ms-input-placeholder {
     font-size: 14px;
     font-weight: 100; }
-  /* line 275, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 276, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission label {
     font-weight: 100; }
-  /* line 281, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 282, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission .label-group i {
     height: 10px;
     width: 20px; }
-  /* line 287, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 288, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .submission .apply-btn {
     width: 140px;
     border-radius: 3pt;
     margin-top: 0px;
     margin-bottom: 0px; }
 
-/* line 295, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+/* line 296, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
 .footer {
   height: 200px;
   text-align: center;
   color: #bbb;
   font-weight: 100; }
-  /* line 300, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
+  /* line 301, /Users/anne/code/OObatwomanOO/le_wagon_by_night/source/stylesheets/pages/_home.scss */
   .footer .copyright {
     padding-top: 130px;
     font-size: 10pt; }
