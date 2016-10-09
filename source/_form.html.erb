@@ -4,71 +4,72 @@
 
 <!-- Formspree -->
 
-
-<% form_tag 'https://formspree.io/brussels@lewagon.org', class:"submission" do %>
-<h2>
-  Apply for Le Wagon by Night now!
-</h2>
-<div class="form-item">
-  <div class="label-group">
-    <i class="fa fa-user"></i>
-    <%= label_tag :first_name %>
+<div class="container">
+  <% form_tag 'https://formspree.io/brussels@lewagon.org', class:"submission" do %>
+  <div class="row">
+    <h2>
+      Join us!
+    </h2>
   </div>
-  <%= text_field_tag :first_name, placeholder:"Alan" %>
-</div>
-
-<div class="form-item">
-<div class="label-group">
-<i class="fa fa-font"></i>
-    <%= label_tag :last_name %>
+  <div class="row">
+    <div class="col-xs-12 col-lg-2">
+    </div>
+    <div class="col-xs-12 col-lg-4 form-col">
+      <div class="form-item">
+        <div class="label-group">
+          <i class="fa fa-user"></i> <%= label_tag :first_name %>
+        </div>
+        <%= text_field_tag :first_name, placeholder:"Alan" %>
+      </div>
+      <div class="form-item">
+        <div class="label-group">
+          <i class="fa fa-font"></i> <%= label_tag :last_name %>
+        </div>
+        <%= text_field_tag :last_name, placeholder:"Turing" %>
+      </div>
+<!--       <div class="form-item">
+        <div class="label-group">
+        <i class="fa fa-calendar"></i>
+          <%= label_tag :age %>
+        </div>
+        <%= number_field_tag :age, placeholder:"42" %>
+      </div> -->
+<!--       <div class="form-item">
+        <div class="label-group">
+          <i class="fa fa-mobile"></i> <%= label_tag :phone_number %>
+        </div>
+        <%= phone_field_tag :phone_number, placeholder:"+32 485 77 88 99" %>
+      </div> -->
+      <div class="form-item">
+        <div class="label-group">
+          <i class="fa fa-envelope"></i> <%= label_tag :email %>
+        </div>
+        <%= text_field_tag :email, placeholder:"alan@turing.com" %>
+      </div>
+    </div>
+    <div class="col-xs-12 col-lg-4 form-col">
+      <div class="form-item">
+        <div class="label-group">
+          <i class="fa fa-comments"></i> <%= label_tag :referer %>
+        </div>
+        <%= text_area_tag :referer, placeholder: "Where did you hear about this course? Twitter, Facebook, a friend (who?), etc." %>
+      </div>
+      <div class="form-item">
+        <div class="label-group">
+          <i class="fa fa-thumbs-o-up"></i> <%= label_tag :motivation %>
+        </div>
+        <%= text_area_tag :motivation, placeholder: "Why do you want to attend this course? What is your project?" %>
+      </div>
+    </div>
+    <div class="col-xs-12 col-lg-2">
+    </div>
   </div>
-  <%= text_field_tag :last_name, placeholder:"Turing" %>
-</div>
-
-<div class="form-item">
-  <div class="label-group">
-  <i class="fa fa-calendar"></i>
-    <%= label_tag :age %>
+  <div class="row">
+    <div class="form-item">
+      <div class="submit">
+        <%= submit_tag :submit, value:"Apply now!", class:"btn-submit apply-btn" %>
+      </div>
+    </div>
   </div>
-  <%= number_field_tag :age, placeholder:"42" %>
+  <% end %>
 </div>
-
-<div class="form-item">
-  <div class="label-group">
-  <i class="fa fa-envelope"></i>
-    <%= label_tag :email %>
-  </div>
-  <%= text_field_tag :email, placeholder:"alan@turing.com" %>
-</div>
-
-<div class="form-item">
-  <div class="label-group">
-  <i class="fa fa-mobile"></i>
-    <%= label_tag :phone_number %>
-  </div>
-  <%= phone_field_tag :phone_number, placeholder:"+33612345678" %>
-</div>
-
-<div class="form-item">
-  <div class="label-group">
-  <i class="fa fa-comments"></i>
-    <%= label_tag :referer %>
-  </div>
-  <%= text_area_tag :referer, placeholder: "Who recommended Le Wagon to you? Quora, Facebook, a friend (who?), etc." %>
-</div>
-
-<div class="form-item">
-  <div class="label-group">
-  <i class="fa fa-thumbs-o-up"></i>
-    <%= label_tag :motivation %>
-  </div>
-  <%= text_area_tag :motivation, placeholder: "Why Le Wagon? What is your professional project?" %>
-</div>
-
-<div class="form-item">
-  <div class="submit">
-    <%= submit_tag :submit, value:"join now!", class:"btn-submit" %>
-  </div>
-</div>
-
-<% end %>
