@@ -152,7 +152,8 @@
     // background-color: $red;
     background-color: #e34848;
   }
-  transform: scale(1);
+  border-radius: 2pt;
+  // transform: scale(1);
   box-shadow: 1px 1px 1px rgba(1,1,1,0.3);
   transition: all 200ms ease;
   padding: 15px;
