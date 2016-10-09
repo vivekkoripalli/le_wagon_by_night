@@ -127,7 +127,7 @@
     text-align: center;
     font-size: 28px;
     font-weight: 700;
-    color: #333333;
+    color: #444444;
   }
   p {
     font-size: 16px;
@@ -150,6 +150,8 @@
   &:hover {
     box-shadow: 1px 1px 1px rgba(1,1,1,0.3);
     transform: scale(1.01);
+    // background-color: $red;
+    background-color: #e34848;
   }
   transform: scale(1);
   box-shadow: 1px 1px 1px rgba(1,1,1,0.3);
@@ -192,9 +194,9 @@
 
   h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
-    color: #333333;
+    color: #444444;
     margin-bottom: 30px;
   }
 
