@@ -40,11 +40,9 @@
   .discover {
     margin: 25px 0;
     a {
-      width: 110px;
+      width: 140px;
       display: block;
       margin: 0 auto;
-      padding-left: 5px;
-      padding-right: 5px;
     }
   }
 }
@@ -88,6 +86,7 @@
   background: $red;
   border: none;
   color: white;
+  line-height: 30px;
   padding: 5px;
   transition: all 200ms ease;
   text-decoration: none;
@@ -140,7 +139,7 @@
   margin: 50px 0;
   h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
     color: #444444;
   }
@@ -149,7 +148,7 @@
 .schedule-item {
   &:hover {
     box-shadow: 1px 1px 1px rgba(1,1,1,0.3);
-    transform: scale(1.01);
+    // transform: scale(1.01);
     // background-color: $red;
     background-color: #e34848;
   }
@@ -193,13 +192,13 @@
   margin-bottom: 30px;
   h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
     color: #444444;
     margin-bottom: 30px;
   }
   img {
-    width: 150px;
+    width: 140px;
     margin: auto;
   }
 }
@@ -209,7 +208,7 @@
   margin-bottom: 30px;
   h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
     color: #444444;
     margin-bottom: 30px;
@@ -233,8 +232,8 @@
   }
   input:focus {
     outline: none !important;
-    border-color: $red;
-    box-shadow: 0px 0px 2px $red;
+    border-color: #777777;
+    box-shadow: 0px 0px 2px #777777;
   }
   textarea {
     box-shadow: -1px 1px 1px rgba(1,1,1,0.1);
@@ -250,8 +249,8 @@
   }
   textarea:focus {
     outline: none !important;
-    border-color: $red;
-    box-shadow: 0px 0px 2px $red;
+    border-color: #777777;
+    box-shadow: 0px 0px 2px #777777;
   }
   ::-webkit-input-placeholder {
     font-size: 14px;
@@ -286,7 +285,7 @@
   }
 
   .apply-btn {
-    width: 110px;
+    width: 140px;
     border-radius: 3pt;
     margin-top: 0px;
     margin-bottom: 0px;
