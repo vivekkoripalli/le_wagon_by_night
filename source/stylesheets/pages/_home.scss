@@ -10,9 +10,9 @@
 
 .divider {
   width: 100%;
-  border-bottom: 1px solid $red;
+  border-bottom: 1px solid #e0e0e0;
   height: 1px;
-  box-shadow: 0px 1px 1px $red;
+  // box-shadow: 0px 1px 1px #e0e0e0;
   margin: 20px 0;
 }
 
@@ -216,6 +216,11 @@
     box-shadow: -1px 1px 1px rgba(1,1,1,0.1);
     width: 300px;
   }
+  input:focus {
+    outline: none !important;
+    border-color: $red;
+    box-shadow: 0px 0px 2px $red;
+  }
   textarea {
     box-shadow: -1px 1px 1px rgba(1,1,1,0.1);
     height: 75px;
@@ -227,6 +232,11 @@
     font-weight: 100;
     width: 300px;
     color: #333333;
+  }
+  textarea:focus {
+    outline: none !important;
+    border-color: $red;
+    box-shadow: 0px 0px 2px $red;
   }
   ::-webkit-input-placeholder {
     font-size: 14px;
