@@ -1,7 +1,3 @@
-<!-- Wufoo -->
-
-<!-- <iframe height="697" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://datene.wufoo.com/embed/zpul07i1iqdfbr/"><a href="https://datene.wufoo.com/forms/zpul07i1iqdfbr/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"><span class="notranslate">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</span></div> -->
-
 <!-- Formspree -->
 
 <div class="container">
@@ -19,32 +15,19 @@
         <div class="label-group">
           <i class="fa fa-user"></i> <%= label_tag :first_name %>
         </div>
-        <%= text_field_tag :first_name, placeholder:"Alan" %>
+        <%= text_field_tag :first_name, placeholder:"Alan", :required => true %>
       </div>
       <div class="form-item">
         <div class="label-group">
           <i class="fa fa-font"></i> <%= label_tag :last_name %>
         </div>
-        <%= text_field_tag :last_name, placeholder:"Turing" %>
+        <%= text_field_tag :last_name, placeholder:"Turing", :required => true %>
       </div>
-<!--       <div class="form-item">
-        <div class="label-group">
-        <i class="fa fa-calendar"></i>
-          <%= label_tag :age %>
-        </div>
-        <%= number_field_tag :age, placeholder:"42" %>
-      </div> -->
-<!--       <div class="form-item">
-        <div class="label-group">
-          <i class="fa fa-mobile"></i> <%= label_tag :phone_number %>
-        </div>
-        <%= phone_field_tag :phone_number, placeholder:"+32 485 77 88 99" %>
-      </div> -->
       <div class="form-item">
         <div class="label-group">
           <i class="fa fa-envelope"></i> <%= label_tag :email %>
         </div>
-        <%= text_field_tag :email, placeholder:"alan@turing.com" %>
+        <%= text_field_tag :email, placeholder:"alan@turing.com", :required => true %>
       </div>
     </div>
     <div class="col-xs-12 col-lg-4 form-col">
@@ -52,13 +35,13 @@
         <div class="label-group">
           <i class="fa fa-comments"></i> <%= label_tag :referer %>
         </div>
-        <%= text_area_tag :referer, placeholder: "Where did you hear about this course? Twitter, Facebook, a friend (who?), etc." %>
+        <%= text_area_tag :referer, placeholder: "Where did you hear about this course? Twitter, Facebook, a friend (who?), etc.", :required => true %>
       </div>
       <div class="form-item">
         <div class="label-group">
           <i class="fa fa-thumbs-o-up"></i> <%= label_tag :motivation %>
         </div>
-        <%= text_area_tag :motivation, placeholder: "Why do you want to attend this course? What is your project?" %>
+        <%= text_area_tag :motivation, placeholder: "Why do you want to attend this course? What is your project?", :required => true %>
       </div>
     </div>
     <div class="col-xs-12 col-lg-2">
